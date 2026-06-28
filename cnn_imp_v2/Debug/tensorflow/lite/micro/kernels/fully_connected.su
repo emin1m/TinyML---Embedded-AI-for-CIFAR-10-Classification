@@ -1,0 +1,6 @@
+../tensorflow/lite/micro/kernels/fully_connected.cc:29:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../tensorflow/lite/micro/kernels/fully_connected.cc:35:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	96	static
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/reference/integer_ops/fully_connected.h:77:6:void tflite::reference_integer_ops::FullyConnected(const tflite::FullyConnectedParams&, const tflite::RuntimeShape&, const InputType*, const tflite::RuntimeShape&, const WeightType*, const tflite::RuntimeShape&, const BiasType*, const tflite::RuntimeShape&, OutputType*) [with InputType = signed char; WeightType = signed char; OutputType = signed char; BiasType = long int]	80	static
+../tensorflow/lite/micro/kernels/fully_connected.cc:90:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	736	static
+../tensorflow/lite/micro/kernels/fully_connected.cc:202:18:TFLMRegistration tflite::Register_FULLY_CONNECTED()	16	static
+../tensorflow/lite/micro/kernels/fully_connected.cc:206:27:TFLMInferenceRegistration tflite::RegisterInference_FULLY_CONNECTED()	8	static

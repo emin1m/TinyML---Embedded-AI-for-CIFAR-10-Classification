@@ -1,0 +1,5 @@
+../tensorflow/lite/micro/kernels/pooling.cc:94:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../tensorflow/lite/micro/kernels/pooling.cc:61:14:TfLiteStatus tflite::{anonymous}::MaxEval(TfLiteContext*, TfLiteNode*)	131
+../tensorflow/lite/micro/kernels/pooling.cc:27:14:TfLiteStatus tflite::{anonymous}::AverageEval(TfLiteContext*, TfLiteNode*)	133
+../tensorflow/lite/micro/kernels/pooling.cc:101:18:TFLMRegistration tflite::Register_AVERAGE_POOL_2D()	1
+../tensorflow/lite/micro/kernels/pooling.cc:105:18:TFLMRegistration tflite::Register_MAX_POOL_2D()	1

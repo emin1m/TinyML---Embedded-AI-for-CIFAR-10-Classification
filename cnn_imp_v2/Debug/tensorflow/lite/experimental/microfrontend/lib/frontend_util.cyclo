@@ -1,0 +1,3 @@
+../tensorflow/lite/experimental/microfrontend/lib/frontend_util.c:22:6:FrontendFillConfigWithDefaults	1
+../tensorflow/lite/experimental/microfrontend/lib/frontend_util.c:30:5:FrontendPopulateState	7
+../tensorflow/lite/experimental/microfrontend/lib/frontend_util.c:79:6:FrontendFreeStateContents	1

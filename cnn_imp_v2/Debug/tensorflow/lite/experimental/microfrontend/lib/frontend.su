@@ -1,0 +1,2 @@
+../tensorflow/lite/experimental/microfrontend/lib/frontend.c:19:23:FrontendProcessSamples	24	static
+../tensorflow/lite/experimental/microfrontend/lib/frontend.c:67:6:FrontendReset	8	static

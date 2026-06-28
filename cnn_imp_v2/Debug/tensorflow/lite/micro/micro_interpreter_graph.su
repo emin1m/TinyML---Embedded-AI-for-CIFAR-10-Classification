@@ -1,0 +1,15 @@
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/micro/micro_interpreter_graph.h:94:27:virtual tflite::MicroResourceVariables* tflite::MicroInterpreterGraph::GetResourceVariables()	0	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:53:1:virtual tflite::MicroInterpreterGraph::~MicroInterpreterGraph()	0	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:241:5:virtual int tflite::MicroInterpreterGraph::NumSubgraphs()	0	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:55:14:virtual TfLiteStatus tflite::MicroInterpreterGraph::InitSubgraphs()	40	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:117:14:virtual TfLiteStatus tflite::MicroInterpreterGraph::ResetSubgraphs()	32	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:142:14:virtual TfLiteStatus tflite::MicroInterpreterGraph::FreeSubgraphs()	32	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:88:14:virtual TfLiteStatus tflite::MicroInterpreterGraph::PrepareSubgraphs()	32	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:167:14:virtual TfLiteStatus tflite::MicroInterpreterGraph::InvokeSubgraph(int)	48	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:254:19:virtual TfLiteEvalTensor* tflite::MicroInterpreterGraph::GetSubgraphInput(int, int)	16	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:214:14:virtual TfLiteStatus tflite::MicroInterpreterGraph::ResetVariableTensors()	56	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:250:8:virtual size_t tflite::MicroInterpreterGraph::NumSubgraphInputs(int)	8	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:261:8:virtual size_t tflite::MicroInterpreterGraph::NumSubgraphOutputs(int)	8	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:265:19:virtual TfLiteEvalTensor* tflite::MicroInterpreterGraph::GetSubgraphOutput(int, int)	16	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:40:1:tflite::MicroInterpreterGraph::MicroInterpreterGraph(TfLiteContext*, const tflite::Model*, tflite::MicroAllocator*, tflite::MicroResourceVariables*)	0	static
+../tensorflow/lite/micro/micro_interpreter_graph.cc:245:6:void tflite::MicroInterpreterGraph::SetSubgraphAllocations(tflite::SubgraphAllocations*)	0	static

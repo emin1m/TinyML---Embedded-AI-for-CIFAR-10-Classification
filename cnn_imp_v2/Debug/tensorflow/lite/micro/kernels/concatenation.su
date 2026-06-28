@@ -1,0 +1,10 @@
+../tensorflow/lite/micro/kernels/concatenation.cc:106:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../tensorflow/lite/micro/kernels/concatenation.cc:111:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	72	static
+../tensorflow/lite/micro/kernels/concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = long long int]	480	static
+../tensorflow/lite/micro/kernels/concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = bool]	480	static
+../tensorflow/lite/micro/kernels/concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = signed char]	480	static
+../tensorflow/lite/micro/kernels/concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = float]	480	static
+../tensorflow/lite/micro/kernels/concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = long int]	480	static
+../tensorflow/lite/micro/kernels/concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = short int]	480	static
+../tensorflow/lite/micro/kernels/concatenation.cc:217:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	24	static
+../tensorflow/lite/micro/kernels/concatenation.cc:254:18:TFLMRegistration tflite::Register_CONCATENATION()	16	static

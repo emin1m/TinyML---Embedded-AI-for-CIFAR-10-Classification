@@ -1,0 +1,20 @@
+../tensorflow/lite/micro/kernels/comparisons.cc:531:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../tensorflow/lite/micro/kernels/comparisons.cc:536:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	4
+../tensorflow/lite/micro/kernels/comparisons.cc:582:18:TFLMRegistration tflite::Register_EQUAL()	1
+../tensorflow/lite/micro/kernels/comparisons.cc:586:18:TFLMRegistration tflite::Register_NOT_EQUAL()	1
+../tensorflow/lite/micro/kernels/comparisons.cc:590:18:TFLMRegistration tflite::Register_GREATER()	1
+../tensorflow/lite/micro/kernels/comparisons.cc:594:18:TFLMRegistration tflite::Register_GREATER_EQUAL()	1
+../tensorflow/lite/micro/kernels/comparisons.cc:598:18:TFLMRegistration tflite::Register_LESS()	1
+../tensorflow/lite/micro/kernels/comparisons.cc:602:18:TFLMRegistration tflite::Register_LESS_EQUAL()	1
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/reference/comparisons.h:159:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = EqualFn<long int>]	49
+../tensorflow/lite/micro/kernels/comparisons.cc:36:14:TfLiteStatus tflite::{anonymous}::EqualEval(TfLiteContext*, TfLiteNode*)	527
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/reference/comparisons.h:159:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = NotEqualFn<long int>]	49
+../tensorflow/lite/micro/kernels/comparisons.cc:128:14:TfLiteStatus tflite::{anonymous}::NotEqualEval(TfLiteContext*, TfLiteNode*)	535
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/reference/comparisons.h:159:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = GreaterFn<long int>]	49
+../tensorflow/lite/micro/kernels/comparisons.cc:219:14:TfLiteStatus tflite::{anonymous}::GreaterEval(TfLiteContext*, TfLiteNode*)	406
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/reference/comparisons.h:159:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = GreaterEqualFn<long int>]	49
+../tensorflow/lite/micro/kernels/comparisons.cc:297:14:TfLiteStatus tflite::{anonymous}::GreaterEqualEval(TfLiteContext*, TfLiteNode*)	406
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/reference/comparisons.h:159:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = LessFn<long int>]	49
+../tensorflow/lite/micro/kernels/comparisons.cc:375:14:TfLiteStatus tflite::{anonymous}::LessEval(TfLiteContext*, TfLiteNode*)	406
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/reference/comparisons.h:159:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = LessEqualFn<long int>]	49
+../tensorflow/lite/micro/kernels/comparisons.cc:453:14:TfLiteStatus tflite::{anonymous}::LessEqualEval(TfLiteContext*, TfLiteNode*)	406

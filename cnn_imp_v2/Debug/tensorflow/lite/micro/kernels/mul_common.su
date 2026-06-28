@@ -1,0 +1,6 @@
+../tensorflow/lite/micro/kernels/mul_common.cc:33:7:void* tflite::MulInit(TfLiteContext*, const char*, size_t)	8	static
+../tensorflow/lite/micro/kernels/mul_common.cc:38:14:TfLiteStatus tflite::CalculateOpDataMul(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, OpDataMul*)	72	static
+../tensorflow/lite/micro/kernels/mul_common.cc:92:14:TfLiteStatus tflite::MulPrepare(TfLiteContext*, TfLiteNode*)	8	static
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/common.h:1128:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 6]	8	static
+../tensorflow/lite/micro/kernels/mul_common.cc:182:6:void tflite::EvalMulFloatReference(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, const OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	624	static
+../tensorflow/lite/micro/kernels/mul_common.cc:102:14:TfLiteStatus tflite::EvalMulQuantizedReference(TfLiteContext*, TfLiteNode*, const OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	1408	static

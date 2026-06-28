@@ -1,0 +1,4 @@
+../tensorflow/lite/micro/kernels/space_to_batch_nd.cc:42:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../tensorflow/lite/micro/kernels/space_to_batch_nd.cc:47:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	40	static
+../tensorflow/lite/micro/kernels/space_to_batch_nd.cc:70:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	488	static
+../tensorflow/lite/micro/kernels/space_to_batch_nd.cc:117:18:TFLMRegistration tflite::Register_SPACE_TO_BATCH_ND()	16	static

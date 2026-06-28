@@ -1,0 +1,3 @@
+../signal/micro/kernels/filter_bank_square_root.cc:63:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	24	static
+../signal/micro/kernels/filter_bank_square_root.cc:33:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+../signal/micro/kernels/filter_bank_square_root.cc:85:19:TFLMRegistration* tflite::tflm_signal::Register_FILTER_BANK_SQUARE_ROOT()	24	static

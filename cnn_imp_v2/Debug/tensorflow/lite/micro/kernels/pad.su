@@ -1,0 +1,5 @@
+../tensorflow/lite/micro/kernels/pad.cc:35:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../tensorflow/lite/micro/kernels/pad.cc:123:14:TfLiteStatus tflite::PadPrepare(TfLiteContext*, TfLiteNode*)	144	static
+../tensorflow/lite/micro/kernels/pad.cc:40:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	1096	static
+../tensorflow/lite/micro/kernels/pad.cc:220:18:TFLMRegistration tflite::Register_PAD()	16	static
+../tensorflow/lite/micro/kernels/pad.cc:225:18:TFLMRegistration tflite::Register_PADV2()	16	static

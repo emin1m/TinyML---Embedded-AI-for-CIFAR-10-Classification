@@ -1,0 +1,4 @@
+../tensorflow/lite/micro/kernels/logical_common.cc:59:6:bool tflite::LogicalOr(bool, bool)	0	static
+../tensorflow/lite/micro/kernels/logical_common.cc:61:6:bool tflite::LogicalAnd(bool, bool)	0	static
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/common.h:1128:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 4]	8	static
+../tensorflow/lite/micro/kernels/logical_common.cc:29:14:TfLiteStatus tflite::LogicalImpl(TfLiteContext*, TfLiteNode*, bool (*)(bool, bool))	440	static

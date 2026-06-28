@@ -1,0 +1,4 @@
+../tensorflow/lite/micro/kernels/if.cc:88:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	32	static
+../tensorflow/lite/micro/kernels/if.cc:41:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../tensorflow/lite/micro/kernels/if.cc:46:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	88	static
+../tensorflow/lite/micro/kernels/if.cc:119:18:TFLMRegistration tflite::Register_IF()	16	static

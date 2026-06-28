@@ -1,0 +1,7 @@
+../Core/Src/lib_model.cpp:44:46:void __tcf_0()	1
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/micro/micro_mutable_op_resolver.h:49:27:const TFLMRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 8]	18
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/micro/micro_mutable_op_resolver.h:43:7:virtual tflite::MicroMutableOpResolver<8>::~MicroMutableOpResolver()	1
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/micro/micro_mutable_op_resolver.h:72:36:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 8]	17
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/micro/micro_mutable_op_resolver.h:61:27:const TFLMRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 8]	25
+../Core/Src/lib_model.cpp:22:8:int8_t LIB_MODEL_Init(const void*, TfLiteTensor**, uint8_t*, uint32_t)	137
+../Core/Src/lib_model.cpp:96:8:int8_t LIB_MODEL_Run(TfLiteTensor**)	4

@@ -1,0 +1,4 @@
+../tensorflow/lite/experimental/microfrontend/lib/filterbank.c:21:6:FilterbankConvertFftComplexToEnergy	3
+../tensorflow/lite/experimental/microfrontend/lib/filterbank.c:37:6:FilterbankAccumulateChannels	5
+../tensorflow/lite/experimental/microfrontend/lib/filterbank.c:119:11:FilterbankSqrt	42
+../tensorflow/lite/experimental/microfrontend/lib/filterbank.c:132:6:FilterbankReset	1

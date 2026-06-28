@@ -1,0 +1,4 @@
+../tensorflow/lite/micro/kernels/prelu_common.cc:28:14:TfLiteStatus tflite::CalculatePreluParams(const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, PreluParams*)	56	static
+../tensorflow/lite/micro/kernels/prelu_common.cc:83:14:TfLiteStatus tflite::PreluPrepare(TfLiteContext*, TfLiteNode*)	64	static
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/common.h:1128:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 4]	8	static
+../tensorflow/lite/micro/kernels/prelu_common.cc:50:6:void tflite::BroadcastPrelu4DSlowFloat(const RuntimeShape&, const float*, const RuntimeShape&, const float*, const RuntimeShape&, float*)	304	static

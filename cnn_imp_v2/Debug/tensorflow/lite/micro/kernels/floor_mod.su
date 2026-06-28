@@ -1,0 +1,5 @@
+../tensorflow/lite/micro/kernels/floor_mod.cc:65:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	0	static
+../tensorflow/lite/micro/kernels/floor_mod.cc:69:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	40	static
+../tensorflow/lite/micro/kernels/floor_mod.cc:124:18:TFLMRegistration tflite::Register_FLOOR_MOD()	16	static
+C:/Users/USER/STM32CubeIDE/workspace_1.15.0/cnn_imp_v2/tensorflow/lite/kernels/internal/common.h:1128:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 4]	8	static
+../tensorflow/lite/micro/kernels/floor_mod.cc:99:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	448	static

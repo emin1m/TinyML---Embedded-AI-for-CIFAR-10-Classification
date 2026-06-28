@@ -1,0 +1,3 @@
+../signal/micro/kernels/fft_auto_scale.cc:63:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	24	static
+../signal/micro/kernels/fft_auto_scale.cc:34:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+../signal/micro/kernels/fft_auto_scale.cc:85:19:TFLMRegistration* tflite::tflm_signal::Register_FFT_AUTO_SCALE()	24	static

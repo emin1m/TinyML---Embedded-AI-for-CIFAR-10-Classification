@@ -1,0 +1,3 @@
+../tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:24:6:FilterbankFillConfigWithDefaults	4	static
+../tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:56:5:FilterbankPopulateState	120	static
+../tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:213:6:FilterbankFreeStateContents	8	static

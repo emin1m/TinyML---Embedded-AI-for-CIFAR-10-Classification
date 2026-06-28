@@ -1,0 +1,4 @@
+../Core/Src/lib_model_stai.cpp:20:8:int8_t StAiModel::Init()	24	static
+../Core/Src/lib_model_stai.cpp:64:8:int8_t StAiModel::Run()	8	static
+../Core/Src/lib_model_stai.cpp:78:9:int8_t* StAiModel::Input()	0	static
+../Core/Src/lib_model_stai.cpp:83:9:int8_t* StAiModel::Output()	0	static
