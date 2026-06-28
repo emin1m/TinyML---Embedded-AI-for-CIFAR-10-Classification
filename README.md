@@ -17,9 +17,25 @@ The main goal is to show that INT8 quantization alone is not enough for fast inf
 ## Model Architecture
 
 * Dataset: CIFAR-10
-* Input: `1 x 32 x 32 x 3`, INT8
-* Output: `1 x 10`, INT8
-* Format: TensorFlow Lite INT8
+
+Input: 32 x 32 x 3, INT8
+
+Quantized Conv2D 3x3, 32 filters + ReLU
+Quantized Conv2D 3x3, 32 filters + ReLU
+MaxPool2D
+
+Quantized Conv2D 3x3, 64 filters + ReLU
+Quantized Conv2D 3x3, 64 filters + ReLU
+MaxPool2D
+
+Quantized Conv2D 3x3, 128 filters + ReLU
+Quantized Mean / Global Average Pooling
+
+Quantized Fully Connected, 10 outputs
+Softmax
+
+Output: 10 classes, INT8
+  
 
 ## Runtime Comparison
 
