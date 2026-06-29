@@ -75,21 +75,6 @@ This shows that the main bottleneck was not the model itself, but the runtime an
 └── README.md
 ```
 
-## Notes
+Have Fun.
 
-The ST runtime static library is not included in this repository.
-Download the generated package from ST Edge AI / X-CUBE-AI and place the runtime library under:
 
-```text
-stm32/Lib/
-```
-
-Expected file:
-
-```text
-libNetworkRuntime1201_CM7_GCC.a
-```
-
-## Next Step
-
-The next goal is to implement a custom TensorFlow Lite Micro + CMSIS-NN path and compare it with the STAI / X-CUBE-AI runtime.
